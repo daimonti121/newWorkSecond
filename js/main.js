@@ -51,20 +51,20 @@ window.onload = function () {
     });
 
 
-    // switch(localStorage.currentSpin) {
-    //     case '20020_spin_1':
-    //         $('.fewmodal').css('display','flex');
-    //         $('#level-1').css('display','flex');
-    //         $('.circle-button').addClass('second_spin').removeClass('first_spin');
-    //         break;
+    switch(localStorage.currentSpin) {
+        case '20020_spin_1':
+            $('.fewmodal').css('display','flex');
+            $('#level-1').css('display','flex');
+            $('.circle-button').addClass('second_spin').removeClass('first_spin');
+            break;
 
-    //     case '20020_spin_2':
-    //         $('.fewmodal').css('display','flex');
-    //         $('#level-1').css('display','none');
-    //         $('#level-2').css('display','flex');
-    //         $('.circle-button').removeClass('second_spin').removeClass('first_spin');
-    //         break;
-    // }
+        case '20020_spin_2':
+            $('.fewmodal').css('display','flex');
+            $('#level-1').css('display','none');
+            $('#level-2').css('display','flex');
+            $('.circle-button').removeClass('second_spin').removeClass('first_spin');
+            break;
+    }
 
 
 
